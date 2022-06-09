@@ -1,0 +1,9 @@
+\set ECHO none
+-- You should write your tests
+SELECT cic_bgworker('test');
+ cic_bgworker 
+--------------
+ 
+(1 row)
+
+ROLLBACK;

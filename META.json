@@ -1,0 +1,35 @@
+{
+    "name": "cic_bgworker",
+    "abstract": "A short description",
+    "description": "Make CREATE INDEX CONCURRENTLY use background workers instead of requiring a client connection",
+    "version": "0.0.1",
+    "maintainer": "<david@fetter.org>",
+    "license": "MIT",
+    "provides": {
+        "cic_bgworker": {
+            "abstract": "A short description",
+            "file": "sql/cic_bgworker.sql",
+            "docfile": "doc/cic_bgworker.md",
+            "version": "0.0.1"
+        }
+    },
+    "release_status": "unstable",
+    "resources": {
+        "bugtracker": {
+            "web": "http://change.me"
+        },
+        "repository": {
+          "url":  "git://change.me/cic_bgworker.git",
+          "web":  "http://change.me",
+          "type": "git"
+        }
+    },
+
+    "generated_by": "<david@fetter.org>",
+
+
+    "meta-spec": {
+        "version": "1.0.0",
+        "url": "http://pgxn.org/meta/spec.txt"
+    }
+}
